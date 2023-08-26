@@ -1,0 +1,452 @@
+
+
+================================================================
+== Vivado HLS Report for 'my_NN_NN_func'
+================================================================
+* Date:           Sat Aug 26 16:19:53 2023
+
+* Version:        2018.1 (Build 2188600 on Wed Apr 04 19:04:02 MDT 2018)
+* Project:        sc_NN
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z100ffg1156-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+--------+----------+------------+
+    |  Clock | Target | Estimated| Uncertainty|
+    +--------+--------+----------+------------+
+    |ap_clk  |  100.00|     29.93|       12.50|
+    +--------+--------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    0|    0|    0|    0|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+--------+
+|       Name      | BRAM_18K| DSP48E|   FF   |   LUT  |
++-----------------+---------+-------+--------+--------+
+|DSP              |        -|     40|       -|       -|
+|Expression       |        -|      -|       0|    1228|
+|FIFO             |        -|      -|       -|       -|
+|Instance         |        -|      -|       0|    2692|
+|Memory           |        -|      -|       -|       -|
+|Multiplexer      |        -|      -|       -|      60|
+|Register         |        -|      -|       -|       -|
++-----------------+---------+-------+--------+--------+
+|Total            |        0|     40|       0|    3980|
++-----------------+---------+-------+--------+--------+
+|Available        |     1510|   2020|  554800|  277400|
++-----------------+---------+-------+--------+--------+
+|Utilization (%)  |        0|      1|       0|       1|
++-----------------+---------+-------+--------+--------+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+-------+---+-----+
+    |         Instance        |        Module        | BRAM_18K| DSP48E| FF| LUT |
+    +-------------------------+----------------------+---------+-------+---+-----+
+    |my_NN_mux_1287_18bkb_U1  |my_NN_mux_1287_18bkb  |        0|      0|  0|  673|
+    |my_NN_mux_1287_18bkb_U2  |my_NN_mux_1287_18bkb  |        0|      0|  0|  673|
+    |my_NN_mux_1287_18bkb_U3  |my_NN_mux_1287_18bkb  |        0|      0|  0|  673|
+    |my_NN_mux_1287_18bkb_U4  |my_NN_mux_1287_18bkb  |        0|      0|  0|  673|
+    +-------------------------+----------------------+---------+-------+---+-----+
+    |Total                    |                      |        0|      0|  0| 2692|
+    +-------------------------+----------------------+---------+-------+---+-----+
+
+    * DSP48: 
+    +--------------------------+----------------------+--------------+
+    |         Instance         |        Module        |  Expression  |
+    +--------------------------+----------------------+--------------+
+    |my_NN_mac_muladd_dEe_U6   |my_NN_mac_muladd_dEe  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_dEe_U10  |my_NN_mac_muladd_dEe  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_dEe_U14  |my_NN_mac_muladd_dEe  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_dEe_U18  |my_NN_mac_muladd_dEe  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_eOg_U21  |my_NN_mac_muladd_eOg  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_eOg_U24  |my_NN_mac_muladd_eOg  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_eOg_U27  |my_NN_mac_muladd_eOg  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_eOg_U30  |my_NN_mac_muladd_eOg  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U22  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U23  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U25  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U26  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U28  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U29  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U31  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U32  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U33  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U35  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U36  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U38  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U39  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U41  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U42  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U44  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mul_mul_18scud_U5   |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U7   |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U8   |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U9   |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U11  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U12  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U13  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U15  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U16  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U17  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U19  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18scud_U20  |my_NN_mul_mul_18scud  |    i0 * i1   |
+    |my_NN_mul_mul_18sg8j_U34  |my_NN_mul_mul_18sg8j  |    i0 * i1   |
+    |my_NN_mul_mul_18sg8j_U37  |my_NN_mul_mul_18sg8j  |    i0 * i1   |
+    |my_NN_mul_mul_18sg8j_U40  |my_NN_mul_mul_18sg8j  |    i0 * i1   |
+    |my_NN_mul_mul_18sg8j_U43  |my_NN_mul_mul_18sg8j  |    i0 * i1   |
+    +--------------------------+----------------------+--------------+
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------+----------+-------+---+----+------------+------------+
+    |     Variable Name    | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------+----------+-------+---+----+------------+------------+
+    |p_Val2_16_fu_1962_p2  |     +    |      0|  0|  38|          38|          38|
+    |p_Val2_17_fu_2003_p2  |     +    |      0|  0|  38|          38|          38|
+    |p_Val2_23_fu_2102_p2  |     +    |      0|  0|  38|          38|          38|
+    |p_Val2_24_fu_2139_p2  |     +    |      0|  0|  38|          38|          38|
+    |p_Val2_30_fu_2238_p2  |     +    |      0|  0|  38|          38|          38|
+    |p_Val2_31_fu_2275_p2  |     +    |      0|  0|  38|          38|          38|
+    |p_Val2_37_fu_2374_p2  |     +    |      0|  0|  38|          38|          38|
+    |p_Val2_38_fu_2411_p2  |     +    |      0|  0|  38|          38|          38|
+    |tmp_72_fu_3749_p2     |     +    |      0|  0|  12|           3|           1|
+    |sel_tmp3_fu_1839_p2   |   icmp   |      0|  0|   8|           2|           1|
+    |sel_tmp5_fu_1845_p2   |   icmp   |      0|  0|   9|           2|           3|
+    |sel_tmp_fu_1833_p2    |   icmp   |      0|  0|   8|           2|           1|
+    |tmp_16_fu_2417_p2     |   icmp   |      0|  0|   9|           3|           1|
+    |tmp_71_fu_3743_p2     |   icmp   |      0|  0|   9|           3|           2|
+    |or_cond_fu_1859_p2    |    or    |      0|  0|   2|           1|           1|
+    |my_NN_n_V_o           |  select  |      0|  0|   3|           1|           1|
+    |newSel10_fu_1976_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel11_fu_1984_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel12_fu_2009_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel13_fu_2017_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel14_fu_2025_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel15_fu_2037_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel16_fu_2045_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel17_fu_2053_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel18_fu_2068_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel19_fu_2076_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel1_fu_1865_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel20_fu_2084_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel21_fu_2108_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel22_fu_2116_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel23_fu_2124_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel24_fu_2145_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel25_fu_2153_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel26_fu_2161_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel27_fu_2173_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel28_fu_2181_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel29_fu_2189_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel2_fu_1873_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel30_fu_2204_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel31_fu_2212_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel32_fu_2220_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel33_fu_2244_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel34_fu_2252_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel35_fu_2260_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel36_fu_2281_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel37_fu_2289_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel38_fu_2297_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel39_fu_2309_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel3_fu_1889_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel40_fu_2317_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel41_fu_2325_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel42_fu_2340_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel43_fu_2348_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel44_fu_2356_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel45_fu_2380_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel46_fu_2388_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel47_fu_2396_p3   |  select  |      0|  0|  18|           1|          18|
+    |newSel4_fu_1897_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel5_fu_1905_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel6_fu_1924_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel7_fu_1932_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel8_fu_1940_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel9_fu_1968_p3    |  select  |      0|  0|  18|           1|          18|
+    |newSel_fu_1851_p3     |  select  |      0|  0|  18|           1|          18|
+    +----------------------+----------+-------+---+----+------------+------------+
+    |Total                 |          |      0|  0|1228|         369|        1179|
+    +----------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------+----+-----------+-----+-----------+
+    | Name | LUT| Input Size| Bits| Total Bits|
+    +------+----+-----------+-----+-----------+
+    |x0_o  |  15|          3|   18|         54|
+    |x1_o  |  15|          3|   18|         54|
+    |x2_o  |  15|          3|   18|         54|
+    |x3_o  |  15|          3|   18|         54|
+    +------+----+-----------+-----+-----------+
+    |Total |  60|         12|   72|        216|
+    +------+----+-----------+-----+-----------+
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------------+-----+-----+------------+------------------+--------------+
+|      RTL Ports     | Dir | Bits|  Protocol  |   Source Object  |    C Type    |
++--------------------+-----+-----+------------+------------------+--------------+
+|ap_clk              |  in |    1| ap_ctrl_hs |  my_NN::NN_func  | return value |
+|ap_rst              |  in |    1| ap_ctrl_hs |  my_NN::NN_func  | return value |
+|U0                  |  in |   18|   ap_none  |        U0        |    pointer   |
+|U1                  |  in |   18|   ap_none  |        U1        |    pointer   |
+|U2                  |  in |   18|   ap_none  |        U2        |    pointer   |
+|x0_i                |  in |   18|   ap_ovld  |        x0        |    pointer   |
+|x0_o                | out |   18|   ap_ovld  |        x0        |    pointer   |
+|x0_o_ap_vld         | out |    1|   ap_ovld  |        x0        |    pointer   |
+|x1_i                |  in |   18|   ap_ovld  |        x1        |    pointer   |
+|x1_o                | out |   18|   ap_ovld  |        x1        |    pointer   |
+|x1_o_ap_vld         | out |    1|   ap_ovld  |        x1        |    pointer   |
+|x2_i                |  in |   18|   ap_ovld  |        x2        |    pointer   |
+|x2_o                | out |   18|   ap_ovld  |        x2        |    pointer   |
+|x2_o_ap_vld         | out |    1|   ap_ovld  |        x2        |    pointer   |
+|x3_i                |  in |   18|   ap_ovld  |        x3        |    pointer   |
+|x3_o                | out |   18|   ap_ovld  |        x3        |    pointer   |
+|x3_o_ap_vld         | out |    1|   ap_ovld  |        x3        |    pointer   |
+|my_NN_tanh_0_V      |  in |   18|   ap_none  |  my_NN_tanh_0_V  |    pointer   |
+|my_NN_tanh_1_V      |  in |   18|   ap_none  |  my_NN_tanh_1_V  |    pointer   |
+|my_NN_tanh_2_V      |  in |   18|   ap_none  |  my_NN_tanh_2_V  |    pointer   |
+|my_NN_tanh_3_V      |  in |   18|   ap_none  |  my_NN_tanh_3_V  |    pointer   |
+|my_NN_tanh_4_V      |  in |   18|   ap_none  |  my_NN_tanh_4_V  |    pointer   |
+|my_NN_tanh_5_V      |  in |   18|   ap_none  |  my_NN_tanh_5_V  |    pointer   |
+|my_NN_tanh_6_V      |  in |   18|   ap_none  |  my_NN_tanh_6_V  |    pointer   |
+|my_NN_tanh_7_V      |  in |   18|   ap_none  |  my_NN_tanh_7_V  |    pointer   |
+|my_NN_tanh_8_V      |  in |   18|   ap_none  |  my_NN_tanh_8_V  |    pointer   |
+|my_NN_tanh_9_V      |  in |   18|   ap_none  |  my_NN_tanh_9_V  |    pointer   |
+|my_NN_tanh_10_V     |  in |   18|   ap_none  |  my_NN_tanh_10_V |    pointer   |
+|my_NN_tanh_11_V     |  in |   18|   ap_none  |  my_NN_tanh_11_V |    pointer   |
+|my_NN_tanh_12_V     |  in |   18|   ap_none  |  my_NN_tanh_12_V |    pointer   |
+|my_NN_tanh_13_V     |  in |   18|   ap_none  |  my_NN_tanh_13_V |    pointer   |
+|my_NN_tanh_14_V     |  in |   18|   ap_none  |  my_NN_tanh_14_V |    pointer   |
+|my_NN_tanh_15_V     |  in |   18|   ap_none  |  my_NN_tanh_15_V |    pointer   |
+|my_NN_tanh_16_V     |  in |   18|   ap_none  |  my_NN_tanh_16_V |    pointer   |
+|my_NN_tanh_17_V     |  in |   18|   ap_none  |  my_NN_tanh_17_V |    pointer   |
+|my_NN_tanh_18_V     |  in |   18|   ap_none  |  my_NN_tanh_18_V |    pointer   |
+|my_NN_tanh_19_V     |  in |   18|   ap_none  |  my_NN_tanh_19_V |    pointer   |
+|my_NN_tanh_20_V     |  in |   18|   ap_none  |  my_NN_tanh_20_V |    pointer   |
+|my_NN_tanh_21_V     |  in |   18|   ap_none  |  my_NN_tanh_21_V |    pointer   |
+|my_NN_tanh_22_V     |  in |   18|   ap_none  |  my_NN_tanh_22_V |    pointer   |
+|my_NN_tanh_23_V     |  in |   18|   ap_none  |  my_NN_tanh_23_V |    pointer   |
+|my_NN_tanh_24_V     |  in |   18|   ap_none  |  my_NN_tanh_24_V |    pointer   |
+|my_NN_tanh_25_V     |  in |   18|   ap_none  |  my_NN_tanh_25_V |    pointer   |
+|my_NN_tanh_26_V     |  in |   18|   ap_none  |  my_NN_tanh_26_V |    pointer   |
+|my_NN_tanh_27_V     |  in |   18|   ap_none  |  my_NN_tanh_27_V |    pointer   |
+|my_NN_tanh_28_V     |  in |   18|   ap_none  |  my_NN_tanh_28_V |    pointer   |
+|my_NN_tanh_29_V     |  in |   18|   ap_none  |  my_NN_tanh_29_V |    pointer   |
+|my_NN_tanh_30_V     |  in |   18|   ap_none  |  my_NN_tanh_30_V |    pointer   |
+|my_NN_tanh_31_V     |  in |   18|   ap_none  |  my_NN_tanh_31_V |    pointer   |
+|my_NN_tanh_32_V     |  in |   18|   ap_none  |  my_NN_tanh_32_V |    pointer   |
+|my_NN_tanh_33_V     |  in |   18|   ap_none  |  my_NN_tanh_33_V |    pointer   |
+|my_NN_tanh_34_V     |  in |   18|   ap_none  |  my_NN_tanh_34_V |    pointer   |
+|my_NN_tanh_35_V     |  in |   18|   ap_none  |  my_NN_tanh_35_V |    pointer   |
+|my_NN_tanh_36_V     |  in |   18|   ap_none  |  my_NN_tanh_36_V |    pointer   |
+|my_NN_tanh_37_V     |  in |   18|   ap_none  |  my_NN_tanh_37_V |    pointer   |
+|my_NN_tanh_38_V     |  in |   18|   ap_none  |  my_NN_tanh_38_V |    pointer   |
+|my_NN_tanh_39_V     |  in |   18|   ap_none  |  my_NN_tanh_39_V |    pointer   |
+|my_NN_tanh_40_V     |  in |   18|   ap_none  |  my_NN_tanh_40_V |    pointer   |
+|my_NN_tanh_41_V     |  in |   18|   ap_none  |  my_NN_tanh_41_V |    pointer   |
+|my_NN_tanh_42_V     |  in |   18|   ap_none  |  my_NN_tanh_42_V |    pointer   |
+|my_NN_tanh_43_V     |  in |   18|   ap_none  |  my_NN_tanh_43_V |    pointer   |
+|my_NN_tanh_44_V     |  in |   18|   ap_none  |  my_NN_tanh_44_V |    pointer   |
+|my_NN_tanh_45_V     |  in |   18|   ap_none  |  my_NN_tanh_45_V |    pointer   |
+|my_NN_tanh_46_V     |  in |   18|   ap_none  |  my_NN_tanh_46_V |    pointer   |
+|my_NN_tanh_47_V     |  in |   18|   ap_none  |  my_NN_tanh_47_V |    pointer   |
+|my_NN_tanh_48_V     |  in |   18|   ap_none  |  my_NN_tanh_48_V |    pointer   |
+|my_NN_tanh_49_V     |  in |   18|   ap_none  |  my_NN_tanh_49_V |    pointer   |
+|my_NN_tanh_50_V     |  in |   18|   ap_none  |  my_NN_tanh_50_V |    pointer   |
+|my_NN_tanh_51_V     |  in |   18|   ap_none  |  my_NN_tanh_51_V |    pointer   |
+|my_NN_tanh_52_V     |  in |   18|   ap_none  |  my_NN_tanh_52_V |    pointer   |
+|my_NN_tanh_53_V     |  in |   18|   ap_none  |  my_NN_tanh_53_V |    pointer   |
+|my_NN_tanh_54_V     |  in |   18|   ap_none  |  my_NN_tanh_54_V |    pointer   |
+|my_NN_tanh_55_V     |  in |   18|   ap_none  |  my_NN_tanh_55_V |    pointer   |
+|my_NN_tanh_56_V     |  in |   18|   ap_none  |  my_NN_tanh_56_V |    pointer   |
+|my_NN_tanh_57_V     |  in |   18|   ap_none  |  my_NN_tanh_57_V |    pointer   |
+|my_NN_tanh_58_V     |  in |   18|   ap_none  |  my_NN_tanh_58_V |    pointer   |
+|my_NN_tanh_59_V     |  in |   18|   ap_none  |  my_NN_tanh_59_V |    pointer   |
+|my_NN_tanh_60_V     |  in |   18|   ap_none  |  my_NN_tanh_60_V |    pointer   |
+|my_NN_tanh_61_V     |  in |   18|   ap_none  |  my_NN_tanh_61_V |    pointer   |
+|my_NN_tanh_62_V     |  in |   18|   ap_none  |  my_NN_tanh_62_V |    pointer   |
+|my_NN_tanh_63_V     |  in |   18|   ap_none  |  my_NN_tanh_63_V |    pointer   |
+|my_NN_tanh_64_V     |  in |   18|   ap_none  |  my_NN_tanh_64_V |    pointer   |
+|my_NN_tanh_65_V     |  in |   18|   ap_none  |  my_NN_tanh_65_V |    pointer   |
+|my_NN_tanh_66_V     |  in |   18|   ap_none  |  my_NN_tanh_66_V |    pointer   |
+|my_NN_tanh_67_V     |  in |   18|   ap_none  |  my_NN_tanh_67_V |    pointer   |
+|my_NN_tanh_68_V     |  in |   18|   ap_none  |  my_NN_tanh_68_V |    pointer   |
+|my_NN_tanh_69_V     |  in |   18|   ap_none  |  my_NN_tanh_69_V |    pointer   |
+|my_NN_tanh_70_V     |  in |   18|   ap_none  |  my_NN_tanh_70_V |    pointer   |
+|my_NN_tanh_71_V     |  in |   18|   ap_none  |  my_NN_tanh_71_V |    pointer   |
+|my_NN_tanh_72_V     |  in |   18|   ap_none  |  my_NN_tanh_72_V |    pointer   |
+|my_NN_tanh_73_V     |  in |   18|   ap_none  |  my_NN_tanh_73_V |    pointer   |
+|my_NN_tanh_74_V     |  in |   18|   ap_none  |  my_NN_tanh_74_V |    pointer   |
+|my_NN_tanh_75_V     |  in |   18|   ap_none  |  my_NN_tanh_75_V |    pointer   |
+|my_NN_tanh_76_V     |  in |   18|   ap_none  |  my_NN_tanh_76_V |    pointer   |
+|my_NN_tanh_77_V     |  in |   18|   ap_none  |  my_NN_tanh_77_V |    pointer   |
+|my_NN_tanh_78_V     |  in |   18|   ap_none  |  my_NN_tanh_78_V |    pointer   |
+|my_NN_tanh_79_V     |  in |   18|   ap_none  |  my_NN_tanh_79_V |    pointer   |
+|my_NN_tanh_80_V     |  in |   18|   ap_none  |  my_NN_tanh_80_V |    pointer   |
+|my_NN_tanh_81_V     |  in |   18|   ap_none  |  my_NN_tanh_81_V |    pointer   |
+|my_NN_tanh_82_V     |  in |   18|   ap_none  |  my_NN_tanh_82_V |    pointer   |
+|my_NN_tanh_83_V     |  in |   18|   ap_none  |  my_NN_tanh_83_V |    pointer   |
+|my_NN_tanh_84_V     |  in |   18|   ap_none  |  my_NN_tanh_84_V |    pointer   |
+|my_NN_tanh_85_V     |  in |   18|   ap_none  |  my_NN_tanh_85_V |    pointer   |
+|my_NN_tanh_86_V     |  in |   18|   ap_none  |  my_NN_tanh_86_V |    pointer   |
+|my_NN_tanh_87_V     |  in |   18|   ap_none  |  my_NN_tanh_87_V |    pointer   |
+|my_NN_tanh_88_V     |  in |   18|   ap_none  |  my_NN_tanh_88_V |    pointer   |
+|my_NN_tanh_89_V     |  in |   18|   ap_none  |  my_NN_tanh_89_V |    pointer   |
+|my_NN_tanh_90_V     |  in |   18|   ap_none  |  my_NN_tanh_90_V |    pointer   |
+|my_NN_tanh_91_V     |  in |   18|   ap_none  |  my_NN_tanh_91_V |    pointer   |
+|my_NN_tanh_92_V     |  in |   18|   ap_none  |  my_NN_tanh_92_V |    pointer   |
+|my_NN_tanh_93_V     |  in |   18|   ap_none  |  my_NN_tanh_93_V |    pointer   |
+|my_NN_tanh_94_V     |  in |   18|   ap_none  |  my_NN_tanh_94_V |    pointer   |
+|my_NN_tanh_95_V     |  in |   18|   ap_none  |  my_NN_tanh_95_V |    pointer   |
+|my_NN_tanh_96_V     |  in |   18|   ap_none  |  my_NN_tanh_96_V |    pointer   |
+|my_NN_tanh_97_V     |  in |   18|   ap_none  |  my_NN_tanh_97_V |    pointer   |
+|my_NN_tanh_98_V     |  in |   18|   ap_none  |  my_NN_tanh_98_V |    pointer   |
+|my_NN_tanh_99_V     |  in |   18|   ap_none  |  my_NN_tanh_99_V |    pointer   |
+|my_NN_tanh_100_V    |  in |   18|   ap_none  | my_NN_tanh_100_V |    pointer   |
+|my_NN_tanh_101_V    |  in |   18|   ap_none  | my_NN_tanh_101_V |    pointer   |
+|my_NN_tanh_102_V    |  in |   18|   ap_none  | my_NN_tanh_102_V |    pointer   |
+|my_NN_tanh_103_V    |  in |   18|   ap_none  | my_NN_tanh_103_V |    pointer   |
+|my_NN_tanh_104_V    |  in |   18|   ap_none  | my_NN_tanh_104_V |    pointer   |
+|my_NN_tanh_105_V    |  in |   18|   ap_none  | my_NN_tanh_105_V |    pointer   |
+|my_NN_tanh_106_V    |  in |   18|   ap_none  | my_NN_tanh_106_V |    pointer   |
+|my_NN_tanh_107_V    |  in |   18|   ap_none  | my_NN_tanh_107_V |    pointer   |
+|my_NN_tanh_108_V    |  in |   18|   ap_none  | my_NN_tanh_108_V |    pointer   |
+|my_NN_tanh_109_V    |  in |   18|   ap_none  | my_NN_tanh_109_V |    pointer   |
+|my_NN_tanh_110_V    |  in |   18|   ap_none  | my_NN_tanh_110_V |    pointer   |
+|my_NN_tanh_111_V    |  in |   18|   ap_none  | my_NN_tanh_111_V |    pointer   |
+|my_NN_tanh_112_V    |  in |   18|   ap_none  | my_NN_tanh_112_V |    pointer   |
+|my_NN_tanh_113_V    |  in |   18|   ap_none  | my_NN_tanh_113_V |    pointer   |
+|my_NN_tanh_114_V    |  in |   18|   ap_none  | my_NN_tanh_114_V |    pointer   |
+|my_NN_tanh_115_V    |  in |   18|   ap_none  | my_NN_tanh_115_V |    pointer   |
+|my_NN_tanh_116_V    |  in |   18|   ap_none  | my_NN_tanh_116_V |    pointer   |
+|my_NN_tanh_117_V    |  in |   18|   ap_none  | my_NN_tanh_117_V |    pointer   |
+|my_NN_tanh_118_V    |  in |   18|   ap_none  | my_NN_tanh_118_V |    pointer   |
+|my_NN_tanh_119_V    |  in |   18|   ap_none  | my_NN_tanh_119_V |    pointer   |
+|my_NN_tanh_120_V    |  in |   18|   ap_none  | my_NN_tanh_120_V |    pointer   |
+|my_NN_tanh_121_V    |  in |   18|   ap_none  | my_NN_tanh_121_V |    pointer   |
+|my_NN_tanh_122_V    |  in |   18|   ap_none  | my_NN_tanh_122_V |    pointer   |
+|my_NN_tanh_123_V    |  in |   18|   ap_none  | my_NN_tanh_123_V |    pointer   |
+|my_NN_tanh_124_V    |  in |   18|   ap_none  | my_NN_tanh_124_V |    pointer   |
+|my_NN_tanh_125_V    |  in |   18|   ap_none  | my_NN_tanh_125_V |    pointer   |
+|my_NN_tanh_126_V    |  in |   18|   ap_none  | my_NN_tanh_126_V |    pointer   |
+|my_NN_tanh_127_V    |  in |   18|   ap_none  | my_NN_tanh_127_V |    pointer   |
+|my_NN_b_0_V         |  in |   18|   ap_none  |    my_NN_b_0_V   |    pointer   |
+|my_NN_b_1_V         |  in |   18|   ap_none  |    my_NN_b_1_V   |    pointer   |
+|my_NN_b_2_V         |  in |   18|   ap_none  |    my_NN_b_2_V   |    pointer   |
+|my_NN_b_3_V         |  in |   18|   ap_none  |    my_NN_b_3_V   |    pointer   |
+|my_NN_b_4_V         |  in |   18|   ap_none  |    my_NN_b_4_V   |    pointer   |
+|my_NN_b_5_V         |  in |   18|   ap_none  |    my_NN_b_5_V   |    pointer   |
+|my_NN_b_6_V         |  in |   18|   ap_none  |    my_NN_b_6_V   |    pointer   |
+|my_NN_b_7_V         |  in |   18|   ap_none  |    my_NN_b_7_V   |    pointer   |
+|my_NN_b_8_V         |  in |   18|   ap_none  |    my_NN_b_8_V   |    pointer   |
+|my_NN_b_9_V         |  in |   18|   ap_none  |    my_NN_b_9_V   |    pointer   |
+|my_NN_b_10_V        |  in |   18|   ap_none  |   my_NN_b_10_V   |    pointer   |
+|my_NN_b_11_V        |  in |   18|   ap_none  |   my_NN_b_11_V   |    pointer   |
+|my_NN_w_0_V         |  in |   18|   ap_none  |    my_NN_w_0_V   |    pointer   |
+|my_NN_w_1_V         |  in |   18|   ap_none  |    my_NN_w_1_V   |    pointer   |
+|my_NN_w_2_V         |  in |   18|   ap_none  |    my_NN_w_2_V   |    pointer   |
+|my_NN_w_3_V         |  in |   18|   ap_none  |    my_NN_w_3_V   |    pointer   |
+|my_NN_w_4_V         |  in |   18|   ap_none  |    my_NN_w_4_V   |    pointer   |
+|my_NN_w_5_V         |  in |   18|   ap_none  |    my_NN_w_5_V   |    pointer   |
+|my_NN_w_6_V         |  in |   18|   ap_none  |    my_NN_w_6_V   |    pointer   |
+|my_NN_w_7_V         |  in |   18|   ap_none  |    my_NN_w_7_V   |    pointer   |
+|my_NN_w_8_V         |  in |   18|   ap_none  |    my_NN_w_8_V   |    pointer   |
+|my_NN_w_9_V         |  in |   18|   ap_none  |    my_NN_w_9_V   |    pointer   |
+|my_NN_w_10_V        |  in |   18|   ap_none  |   my_NN_w_10_V   |    pointer   |
+|my_NN_w_11_V        |  in |   18|   ap_none  |   my_NN_w_11_V   |    pointer   |
+|my_NN_w_12_V        |  in |   18|   ap_none  |   my_NN_w_12_V   |    pointer   |
+|my_NN_w_13_V        |  in |   18|   ap_none  |   my_NN_w_13_V   |    pointer   |
+|my_NN_w_14_V        |  in |   18|   ap_none  |   my_NN_w_14_V   |    pointer   |
+|my_NN_w_15_V        |  in |   18|   ap_none  |   my_NN_w_15_V   |    pointer   |
+|my_NN_w_16_V        |  in |   18|   ap_none  |   my_NN_w_16_V   |    pointer   |
+|my_NN_w_17_V        |  in |   18|   ap_none  |   my_NN_w_17_V   |    pointer   |
+|my_NN_w_18_V        |  in |   18|   ap_none  |   my_NN_w_18_V   |    pointer   |
+|my_NN_w_19_V        |  in |   18|   ap_none  |   my_NN_w_19_V   |    pointer   |
+|my_NN_w_20_V        |  in |   18|   ap_none  |   my_NN_w_20_V   |    pointer   |
+|my_NN_w_21_V        |  in |   18|   ap_none  |   my_NN_w_21_V   |    pointer   |
+|my_NN_w_22_V        |  in |   18|   ap_none  |   my_NN_w_22_V   |    pointer   |
+|my_NN_w_23_V        |  in |   18|   ap_none  |   my_NN_w_23_V   |    pointer   |
+|my_NN_w_24_V        |  in |   18|   ap_none  |   my_NN_w_24_V   |    pointer   |
+|my_NN_w_25_V        |  in |   18|   ap_none  |   my_NN_w_25_V   |    pointer   |
+|my_NN_w_26_V        |  in |   18|   ap_none  |   my_NN_w_26_V   |    pointer   |
+|my_NN_w_27_V        |  in |   18|   ap_none  |   my_NN_w_27_V   |    pointer   |
+|my_NN_w_28_V        |  in |   18|   ap_none  |   my_NN_w_28_V   |    pointer   |
+|my_NN_w_29_V        |  in |   18|   ap_none  |   my_NN_w_29_V   |    pointer   |
+|my_NN_w_30_V        |  in |   18|   ap_none  |   my_NN_w_30_V   |    pointer   |
+|my_NN_w_31_V        |  in |   18|   ap_none  |   my_NN_w_31_V   |    pointer   |
+|my_NN_w_32_V        |  in |   18|   ap_none  |   my_NN_w_32_V   |    pointer   |
+|my_NN_w_33_V        |  in |   18|   ap_none  |   my_NN_w_33_V   |    pointer   |
+|my_NN_w_34_V        |  in |   18|   ap_none  |   my_NN_w_34_V   |    pointer   |
+|my_NN_w_35_V        |  in |   18|   ap_none  |   my_NN_w_35_V   |    pointer   |
+|my_NN_w_36_V        |  in |   18|   ap_none  |   my_NN_w_36_V   |    pointer   |
+|my_NN_w_37_V        |  in |   18|   ap_none  |   my_NN_w_37_V   |    pointer   |
+|my_NN_w_38_V        |  in |   18|   ap_none  |   my_NN_w_38_V   |    pointer   |
+|my_NN_w_39_V        |  in |   18|   ap_none  |   my_NN_w_39_V   |    pointer   |
+|my_NN_w_40_V        |  in |   18|   ap_none  |   my_NN_w_40_V   |    pointer   |
+|my_NN_w_41_V        |  in |   18|   ap_none  |   my_NN_w_41_V   |    pointer   |
+|my_NN_w_42_V        |  in |   18|   ap_none  |   my_NN_w_42_V   |    pointer   |
+|my_NN_w_43_V        |  in |   18|   ap_none  |   my_NN_w_43_V   |    pointer   |
+|my_NN_w_44_V        |  in |   18|   ap_none  |   my_NN_w_44_V   |    pointer   |
+|my_NN_w_45_V        |  in |   18|   ap_none  |   my_NN_w_45_V   |    pointer   |
+|my_NN_w_46_V        |  in |   18|   ap_none  |   my_NN_w_46_V   |    pointer   |
+|my_NN_w_47_V        |  in |   18|   ap_none  |   my_NN_w_47_V   |    pointer   |
+|my_NN_w_48_V        |  in |   18|   ap_none  |   my_NN_w_48_V   |    pointer   |
+|my_NN_w_49_V        |  in |   18|   ap_none  |   my_NN_w_49_V   |    pointer   |
+|my_NN_w_50_V        |  in |   18|   ap_none  |   my_NN_w_50_V   |    pointer   |
+|my_NN_w_51_V        |  in |   18|   ap_none  |   my_NN_w_51_V   |    pointer   |
+|my_NN_w_52_V        |  in |   18|   ap_none  |   my_NN_w_52_V   |    pointer   |
+|my_NN_w_53_V        |  in |   18|   ap_none  |   my_NN_w_53_V   |    pointer   |
+|my_NN_w_54_V        |  in |   18|   ap_none  |   my_NN_w_54_V   |    pointer   |
+|my_NN_w_55_V        |  in |   18|   ap_none  |   my_NN_w_55_V   |    pointer   |
+|my_NN_w_56_V        |  in |   18|   ap_none  |   my_NN_w_56_V   |    pointer   |
+|my_NN_w_57_V        |  in |   18|   ap_none  |   my_NN_w_57_V   |    pointer   |
+|my_NN_w_58_V        |  in |   18|   ap_none  |   my_NN_w_58_V   |    pointer   |
+|my_NN_w_59_V        |  in |   18|   ap_none  |   my_NN_w_59_V   |    pointer   |
+|my_NN_w_60_V        |  in |   18|   ap_none  |   my_NN_w_60_V   |    pointer   |
+|my_NN_w_61_V        |  in |   18|   ap_none  |   my_NN_w_61_V   |    pointer   |
+|my_NN_w_62_V        |  in |   18|   ap_none  |   my_NN_w_62_V   |    pointer   |
+|my_NN_w_63_V        |  in |   18|   ap_none  |   my_NN_w_63_V   |    pointer   |
+|my_NN_n_V_i         |  in |    3|   ap_ovld  |     my_NN_n_V    |    pointer   |
+|my_NN_n_V_o         | out |    3|   ap_ovld  |     my_NN_n_V    |    pointer   |
+|my_NN_n_V_o_ap_vld  | out |    1|   ap_ovld  |     my_NN_n_V    |    pointer   |
++--------------------+-----+-----+------------+------------------+--------------+
+

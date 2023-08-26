@@ -1,0 +1,125 @@
+
+
+================================================================
+== Vivado HLS Report for 'my_NN_out_func'
+================================================================
+* Date:           Sat Aug 26 16:19:56 2023
+
+* Version:        2018.1 (Build 2188600 on Wed Apr 04 19:04:02 MDT 2018)
+* Project:        sc_NN
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z100ffg1156-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+--------+----------+------------+
+    |  Clock | Target | Estimated| Uncertainty|
+    +--------+--------+----------+------------+
+    |ap_clk  |  100.00|     15.44|       12.50|
+    +--------+--------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    0|    0|    0|    0|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+--------+
+|       Name      | BRAM_18K| DSP48E|   FF   |   LUT  |
++-----------------+---------+-------+--------+--------+
+|DSP              |        -|      8|       -|       -|
+|Expression       |        -|      -|       -|       -|
+|FIFO             |        -|      -|       -|       -|
+|Instance         |        -|      -|       -|       -|
+|Memory           |        -|      -|       -|       -|
+|Multiplexer      |        -|      -|       -|       -|
+|Register         |        -|      -|       -|       -|
++-----------------+---------+-------+--------+--------+
+|Total            |        0|      8|       0|       0|
++-----------------+---------+-------+--------+--------+
+|Available        |     1510|   2020|  554800|  277400|
++-----------------+---------+-------+--------+--------+
+|Utilization (%)  |        0|   ~0  |       0|       0|
++-----------------+---------+-------+--------+--------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP48: 
+    +---------------------------+----------------------+--------------+
+    |          Instance         |        Module        |  Expression  |
+    +---------------------------+----------------------+--------------+
+    |my_NN_mac_muladd_fYi_U263  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U265  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U266  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U267  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U269  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mac_muladd_fYi_U270  |my_NN_mac_muladd_fYi  | i0 + i1 * i2 |
+    |my_NN_mul_mul_18sg8j_U264  |my_NN_mul_mul_18sg8j  |    i0 * i1   |
+    |my_NN_mul_mul_18sg8j_U268  |my_NN_mul_mul_18sg8j  |    i0 * i1   |
+    +---------------------------+----------------------+--------------+
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------+-----+-----+---------+--------------+---------+
+|  RTL Ports  | Dir | Bits| Protocol| Source Object|  C Type |
++-------------+-----+-----+---------+--------------+---------+
+|Y0           | out |   18|  ap_vld |      Y0      | pointer |
+|Y0_ap_vld    | out |    1|  ap_vld |      Y0      | pointer |
+|Y1           | out |   18|  ap_vld |      Y1      | pointer |
+|Y1_ap_vld    | out |    1|  ap_vld |      Y1      | pointer |
+|x0           |  in |   18| ap_none |      x0      | pointer |
+|x1           |  in |   18| ap_none |      x1      | pointer |
+|x2           |  in |   18| ap_none |      x2      | pointer |
+|x3           |  in |   18| ap_none |      x3      | pointer |
+|my_NN_c_0_V  |  in |   18| ap_none |  my_NN_c_0_V | pointer |
+|my_NN_c_1_V  |  in |   18| ap_none |  my_NN_c_1_V | pointer |
+|my_NN_c_2_V  |  in |   18| ap_none |  my_NN_c_2_V | pointer |
+|my_NN_c_3_V  |  in |   18| ap_none |  my_NN_c_3_V | pointer |
+|my_NN_c_4_V  |  in |   18| ap_none |  my_NN_c_4_V | pointer |
+|my_NN_c_5_V  |  in |   18| ap_none |  my_NN_c_5_V | pointer |
+|my_NN_c_6_V  |  in |   18| ap_none |  my_NN_c_6_V | pointer |
+|my_NN_c_7_V  |  in |   18| ap_none |  my_NN_c_7_V | pointer |
++-------------+-----+-----+---------+--------------+---------+
+

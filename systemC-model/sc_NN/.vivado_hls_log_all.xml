@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-35] Protocol 'SC_METHOD' contains conflicting I/O accesses:&#xD;&#xA;   wire read on port 'x3' (sc_NN/sc_NN.cpp:123) and wire read on port 'x3' (sc_NN/sc_NN.cpp:124) occur in the same clock cycle." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:47.693+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Found reading to uninitialized signal/variable 'my_NN_n_V'('my_NN_n_V_read', sc_NN/sc_NN.cpp:37), the signal/variable should be written or reset firstly, or it may introduce RTL simulation mismatch." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.884+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_n_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.866+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_7_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.846+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_6_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.828+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_5_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.812+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_4_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.793+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_3_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.774+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_2_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.755+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_1_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.737+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_c_0_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.714+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_63_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.694+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_62_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.674+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_61_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.658+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_60_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.637+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_59_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.615+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_58_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.596+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_57_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.577+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_56_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.557+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_55_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.538+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_54_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.519+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_53_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.498+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_52_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.480+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_51_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.465+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_50_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.448+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_49_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.433+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_48_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.417+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_47_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.402+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_46_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.385+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_45_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.368+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_44_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.350+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_43_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.334+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_42_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.318+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_41_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.303+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_40_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.288+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_39_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.252+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_38_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.235+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_37_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.219+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_36_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.202+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_35_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.185+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_34_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.171+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_33_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.156+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_32_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.139+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_31_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.123+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_30_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.109+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_29_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.095+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_28_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.080+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_27_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.066+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_26_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.041+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_25_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.027+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_24_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:40.011+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_23_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.997+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_22_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.981+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_21_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.963+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_20_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.946+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_19_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.930+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_18_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.914+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_17_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.900+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_16_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.884+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_15_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.864+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_14_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.841+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_13_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.826+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_12_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.811+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_11_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.797+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_10_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.783+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_9_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.769+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_8_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.753+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_7_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.737+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_6_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.720+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_5_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.703+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_4_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.687+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_3_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.667+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_2_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.648+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_1_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.632+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_w_0_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.616+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_11_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.598+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_10_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.582+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_9_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.567+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_8_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.553+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_7_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.535+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_6_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.520+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_5_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.504+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_4_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.488+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_3_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.474+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_2_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.460+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_1_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.441+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_b_0_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.425+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_127_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.412+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_126_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.397+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_125_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.383+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_124_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.367+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_123_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.353+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_122_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.336+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_121_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.319+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_120_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.302+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_119_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.285+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_118_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.270+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_117_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.255+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_116_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.240+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_115_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.223+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_114_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.208+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_113_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.194+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_112_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.179+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_111_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.163+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_110_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.149+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_109_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.131+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_108_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.118+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_107_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.103+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_106_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.090+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_105_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.075+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_104_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.061+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_103_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.049+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_102_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.035+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_101_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.019+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_100_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:39.007+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_99_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.993+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_98_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.980+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_97_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.963+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_96_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.950+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_95_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.937+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_94_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.921+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_93_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.908+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_92_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.894+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_91_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.881+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_90_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.866+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_89_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.852+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_88_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.837+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_87_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.822+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_86_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.806+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_85_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.790+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_84_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.777+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_83_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.764+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_82_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.750+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_81_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.736+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_80_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.723+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_79_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.710+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_78_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.696+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_77_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.679+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_76_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.660+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_75_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.644+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_74_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.629+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_73_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.609+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_72_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.591+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_71_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.569+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_70_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.553+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_69_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.536+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_68_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.518+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_67_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.502+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_66_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.487+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_65_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.469+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_64_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.451+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_63_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.432+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_62_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.415+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_61_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.396+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_60_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.379+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_59_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.360+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_58_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.344+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_57_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.327+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_56_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.306+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_55_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.285+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_54_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.266+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_53_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.252+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_52_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.239+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_51_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.226+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_50_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.213+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_49_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.198+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_48_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.182+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_47_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.169+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_46_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.156+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_45_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.133+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_44_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.120+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_43_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.109+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_42_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.095+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_41_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.083+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_40_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.072+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_39_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.059+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_38_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.014+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_37_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:38.003+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_36_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.992+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_35_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.949+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_34_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.937+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_33_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.925+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_32_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.913+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_31_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.897+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_30_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.886+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_29_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.872+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_28_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.861+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_27_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.850+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_26_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.839+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_25_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.828+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_24_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.817+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_23_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.805+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_22_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.792+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_21_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.780+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_20_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.765+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_19_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.753+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_18_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.738+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_17_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.725+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_16_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.711+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_15_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.697+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_14_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.686+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_13_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.673+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_12_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.658+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_11_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.645+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_10_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.630+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_9_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.614+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_8_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.598+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_7_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.585+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_6_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.572+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_5_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.560+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_4_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.548+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_3_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.538+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_2_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.527+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_1_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.517+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'my_NN_tanh_0_V' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.505+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Found reading to uninitialized signal/variable 'x3'('val_V_13', 'val.V', sc_NN/sc_NN.cpp:13), the signal/variable should be written or reset firstly, or it may introduce RTL simulation mismatch." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.492+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'x3' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.478+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Found reading to uninitialized signal/variable 'x2'('val_V_12', 'val.V', sc_NN/sc_NN.cpp:12), the signal/variable should be written or reset firstly, or it may introduce RTL simulation mismatch." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.465+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'x2' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.433+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Found reading to uninitialized signal/variable 'x1'('val_V_11', 'val.V', sc_NN/sc_NN.cpp:11), the signal/variable should be written or reset firstly, or it may introduce RTL simulation mismatch." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.422+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'x1' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.409+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Found reading to uninitialized signal/variable 'x0'('val_V_10', 'val.V', sc_NN/sc_NN.cpp:10), the signal/variable should be written or reset firstly, or it may introduce RTL simulation mismatch." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.394+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Signal 'x0' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.384+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Port 'Y1' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.367+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Port 'Y0' has no reset." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.355+0200" type="Warning"/>
+        <logs message="WARNING: [SCA 200-202] Cannot find reset port in module 'my_NN', an RTL reset port will be automatically inserted." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:37.342+0200" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-104] Completely partitioning array 'my_NN.w.V' (sc_NN/sc_NN.h:31) accessed through non-constant indices on dimension 1 (sc_NN/sc_NN.cpp:44:31), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:30.662+0200" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-104] Completely partitioning array 'my_NN.tanh.V' (sc_NN/sc_NN.h:31) accessed through non-constant indices on dimension 1 (sc_NN/sc_NN.cpp:56:47), which may result in long runtime and suboptimal QoR due to large multiplexers. Please consider wrapping the array access into a function or using a register file core instead." projectName="sc_NN" solutionName="solution2" date="2023-08-26T16:58:28.184+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

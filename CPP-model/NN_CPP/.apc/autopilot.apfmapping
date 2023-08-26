@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="NN.cpp" path="D:\Vivado_HLS_workspace\NN_CPP\NN.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="NN_test.cpp" path="D:\Vivado_HLS_workspace\NN_CPP\NN_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
