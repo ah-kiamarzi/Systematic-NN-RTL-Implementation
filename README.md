@@ -10,10 +10,13 @@ The primary application implemented in this repository is a neural network compo
 ## Usage
 To explore and utilize the contents of this repository, follow these steps:
     1. Clone the repository to your local machine:
+       
        ```bash
        git clone https://github.com/ah-kiamarzi/Systematic-NN-RTL-Implementation
        ```
+       
     2. Navigate to the specific implementation directories (cpp-model, systemc-model, verilog-rtl) for detailed usage instructions for each approach.
+
     3. Customize the implementation parameters, such as bit widths and decimal/fraction parts, based on your application's requirements.
 ## Contributing
 Contributions to this repository are welcome! Feel free to open issues for discussions or submit pull requests to propose changes or enhancements.
