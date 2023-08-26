@@ -1,4 +1,4 @@
-﻿### Systematic Neural Network RTL Implementation
+﻿## Systematic Neural Network RTL Implementation
 This repository contains the implementation of a systematic approach to designing, implementing, and optimizing neural networks (NNs) using Register Transfer Level (RTL) methodologies. The approach is based on the transformation of NNs into state-space models and further into finite-state machine representations. The repository includes implementations in various hardware description languages and tools, showcasing the versatility of the proposed method.
 ## Abstract
 In the realm of neural network design, an organized and efficient approach is crucial. This repository houses a systematic methodology for implementing state-space models at the RTL level, with a focus on neural network implementations. The approach draws inspiration from the iterative nature of state-space models and the parallels between state-space formulations and finite-state machines. It accommodates both linear and nonlinear, as well as time-varying and time-invariant systems. This method suits inherently iterative systems as well as systems that can be reformulated iteratively. Notably, it finds application in the implementation of recurrent neural networks like the Long Short-Term Memory (LSTM) NNs, which inherently possess state-space forms. A case study demonstrates the systematic use of state-space systems for implementing and optimizing NNs as nonlinear and time-varying dynamic systems.
@@ -11,7 +11,7 @@ The primary application implemented in this repository is a neural network compo
 To explore and utilize the contents of this repository, follow these steps:
     1. Clone the repository to your local machine:
        bashCopy code
-       git clone https://github.com/your-username/Systematic-NN-RTL-Implementation.git
+       git clone https://github.com/ah-kiamarzi/Systematic-NN-RTL-Implementation
     2. Navigate to the specific implementation directories (cpp-model, systemc-model, verilog-rtl) for detailed usage instructions for each approach.
     3. Customize the implementation parameters, such as bit widths and decimal/fraction parts, based on your application's requirements.
 ## Contributing
