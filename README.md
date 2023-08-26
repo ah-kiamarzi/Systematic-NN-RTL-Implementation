@@ -9,12 +9,13 @@ The primary application implemented in this repository is a neural network compo
     3. RTL Implementation using Verilog HDL: The neural network is implemented in RTL using the Verilog hardware description language. This low-level representation demonstrates the direct application of the proposed method in a hardware description language.
 ## Usage
 To explore and utilize the contents of this repository, follow these steps:
+
     1. Clone the repository to your local machine:
-       
+
        ```bash
        git clone https://github.com/ah-kiamarzi/Systematic-NN-RTL-Implementation
        ```
-       
+
     2. Navigate to the specific implementation directories (cpp-model, systemc-model, verilog-rtl) for detailed usage instructions for each approach.
 
     3. Customize the implementation parameters, such as bit widths and decimal/fraction parts, based on your application's requirements.
