@@ -11,24 +11,24 @@ In the realm of neural network design, an organized and efficient approach is cr
 
 The primary application implemented in this repository is a neural network composed of three hidden layers, one input layer, and one output layer. The workflow involves transforming this NN into its iterative form and further converting it into state-space equations. These equations are then represented in a state machine format. Three distinct RTL implementation approaches are employed:
 
-    1. CPP Model Synthesized with Vivado HLS Tool: The neural network model is implemented using C++ and then synthesized using the Vivado HLS tool. The synthesized results demonstrate the hardware implementation of the proposed methodology.
+1. CPP Model Synthesized with Vivado HLS Tool: The neural network model is implemented using C++ and then synthesized using the Vivado HLS tool. The synthesized results demonstrate the hardware implementation of the proposed methodology.
 
-    2. SystemC Model Synthesized with Vivado HLS Tool: The neural network model is developed using the SystemC library and synthesized using the Vivado HLS tool. This showcases the versatility of the approach across different hardware description languages.
+2. SystemC Model Synthesized with Vivado HLS Tool: The neural network model is developed using the SystemC library and synthesized using the Vivado HLS tool. This showcases the versatility of the approach across different hardware description languages.
 
-    3. RTL Implementation using Verilog HDL: The neural network is implemented in RTL using the Verilog hardware description language. This low-level representation demonstrates the direct application of the proposed method in a hardware description language.
+3. RTL Implementation using Verilog HDL: The neural network is implemented in RTL using the Verilog hardware description language. This low-level representation demonstrates the direct application of the proposed method in a hardware description language.
 
 ## Usage
 
 To explore and utilize the contents of this repository, follow these steps:
 
-    1. Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 	```bash
        git clone https://github.com/ah-kiamarzi/Systematic-NN-RTL-Implementation
      ```
 
-	2. Navigate to the specific implementation directories (cpp-model, systemc-model, verilog-rtl) for detailed usage instructions for each approach.
+2. Navigate to the specific implementation directories (cpp-model, systemc-model, verilog-rtl) for detailed usage instructions for each approach.
 
-    3. Customize the implementation parameters, such as bit widths and decimal/fraction parts, based on your application's requirements.
+3. Customize the implementation parameters, such as bit widths and decimal/fraction parts, based on your application's requirements.
 
 ## Contributing
 
